@@ -3,9 +3,8 @@ package org.zengrong.robotlegs2.timer.view
 import com.bit101.components.HBox;
 import com.bit101.components.PushButton;
 import com.bit101.components.VBox;
-import flash.display.Sprite;
+
 import org.zengrong.robotlegs2.timer.widget.TimerInput;
-import robotlegs.bender.framework.api.ILogger;
 
 /**
  * 显示Timer界面，该界面可以设置倒计时分、秒

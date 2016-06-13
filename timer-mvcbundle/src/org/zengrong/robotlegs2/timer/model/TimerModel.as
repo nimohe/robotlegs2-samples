@@ -3,7 +3,7 @@ package org.zengrong.robotlegs2.timer.model
 import flash.events.IEventDispatcher;
 import flash.events.TimerEvent;
 import flash.utils.Timer;
-import robotlegs.bender.extensions.eventCommandMap.api.IEventCommandMap;
+
 import robotlegs.bender.framework.api.ILogger;
 /**
  * 实现定时器Model

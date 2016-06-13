@@ -1,13 +1,13 @@
 package org.zengrong.robotlegs2.timer.cmd 
 {
 import flash.display.DisplayObject;
+
 import org.zengrong.robotlegs2.timer.event.TEvent;
 import org.zengrong.robotlegs2.timer.model.ViewModel;
 import org.zengrong.robotlegs2.timer.view.ITimerView;
-import org.zengrong.robotlegs2.timer.view.TimerSetView;
+
 import robotlegs.bender.bundles.mvcs.Command;
 import robotlegs.bender.extensions.contextView.ContextView;
-import robotlegs.bender.extensions.viewManager.api.IViewHandler;
 import robotlegs.bender.framework.api.ILogger;
 /**
  * 负责切换界面状态
@@ -29,7 +29,7 @@ public class ChangeStateCmd extends Command
 	
 	override public function execute():void
 	{
-		logger.debug(evt.info);
+		logger.debug("evt info:{0}",[evt.info]);
 		logger.debug(contextView.view.numChildren);
 		if(contextView.view.numChildren > 0)
 		{

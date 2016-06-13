@@ -3,7 +3,6 @@ package org.zengrong.robotlegs2.timer.view
 import com.bit101.components.Label;
 import com.bit101.components.PushButton;
 import com.bit101.components.VBox;
-import flash.display.Sprite;
 	
 /**
  * 时间到之后显示的界面

@@ -3,8 +3,8 @@ package org.zengrong.robotlegs2.timer.widget
 import com.bit101.components.InputText;
 import com.bit101.components.Label;
 import com.bit101.components.PushButton;
-import com.bit101.components.Text;
 import com.bit101.components.VBox;
+
 import flash.events.Event;
 import flash.text.TextFormat;
 import flash.text.TextFormatAlign;
@@ -42,7 +42,7 @@ public class TimerInput extends VBox
 	
 	private function init():void
 	{
-		_ti = new InputText(this, 0, 0, "10", handler_change);
+		_ti = new InputText(this, 0, 0, "0", handler_change);
 		_ti.width = 30;
 		_ti.textField.restrict = "0-9";
 		_ti.textField.maxChars = 2;

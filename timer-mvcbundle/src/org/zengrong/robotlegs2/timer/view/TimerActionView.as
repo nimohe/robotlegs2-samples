@@ -4,8 +4,6 @@ import com.bit101.components.HBox;
 import com.bit101.components.Label;
 import com.bit101.components.PushButton;
 import com.bit101.components.VBox;
-import flash.utils.setTimeout;
-import mx.core.ButtonAsset;
 	
 /**
  * 计时器在运行时的视图

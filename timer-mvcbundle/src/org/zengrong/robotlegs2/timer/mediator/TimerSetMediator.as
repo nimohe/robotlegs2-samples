@@ -2,14 +2,13 @@ package org.zengrong.robotlegs2.timer.mediator
 {
 
 import flash.events.Event;
-import flash.events.IEventDispatcher;
 import flash.events.MouseEvent;
+
 import org.zengrong.robotlegs2.timer.event.TEvent;
-import org.zengrong.robotlegs2.timer.view.AlertView;
 import org.zengrong.robotlegs2.timer.view.TimerActionView;
 import org.zengrong.robotlegs2.timer.view.TimerSetView;
+
 import robotlegs.bender.bundles.mvcs.Mediator;
-import robotlegs.bender.extensions.contextView.ContextView;
 import robotlegs.bender.framework.api.ILogger;
 /**
  * TimerSetView的Mediator
